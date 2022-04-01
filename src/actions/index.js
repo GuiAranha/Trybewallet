@@ -1,7 +1,3 @@
 // Coloque aqui suas actions
-export default function userAction(email) {
-  return {
-    type: USER_LOGIN,
-    email,
-  };
-}
+export const USER_LOGIN = 'USER_LOGIN';
+export const userAction = (payload) => ({ type: USER_LOGIN, payload });
