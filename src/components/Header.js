@@ -3,16 +3,6 @@ import { connect } from 'react-redux';
 import PropTypes from 'prop-types';
 
 class Header extends React.Component {
-  /* constructor() {
-    super();
-    this.expensesValue = this.expensesValue.bind(this);
-  } */
-
-  /* expensesValue() {
-    const { allExpenses } = this.props;
-    return allExpenses.reduce((total, current) => total + current, 0);
-  } */
-
   render() {
     const { email, allExpenses } = this.props;
     return (

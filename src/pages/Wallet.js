@@ -5,6 +5,7 @@ import Header from '../components/Header';
 import { currenciesAction } from '../actions';
 import getCurrencies from '../services/api';
 import MainForm from '../components/MainForm';
+import ExpensesTable from '../components/ExpensesTable';
 
 class Wallet extends React.Component {
   componentDidMount() {
@@ -19,6 +20,7 @@ class Wallet extends React.Component {
       <div>
         <Header />
         <MainForm />
+        <ExpensesTable />
       </div>
     );
   }
